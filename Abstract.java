@@ -50,6 +50,7 @@ class UPIPayment extends Payment {
 public class Abstract {
     public static void main(String[] args) {
         // Payment p = new Payment(100); // Error: Cannot instantiate abstract class
+        // updating for new commit and push
 
         Payment p1 = new CreditCardPayment(250.0, "1234-5678-9012");
         p1.authorize();
