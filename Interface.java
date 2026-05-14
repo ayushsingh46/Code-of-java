@@ -24,3 +24,4 @@ public class Interface {
         //Bicycle.a = 46; as you cannot modify the properties in Interface as they are final!
     }
 }
+//
